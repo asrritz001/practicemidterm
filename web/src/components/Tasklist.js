@@ -28,8 +28,8 @@ function TaskList() {
   return (
     <div>
       <h2>Task List</h2>
-      <input type="text" value={newTask} onChange={(e) => setNewTask(e.target.value)} />
-      <button onClick={addTask}>Add Task</button>
+      <input type="text" placeholder='write here' value={newTask} onChange={(e) => setNewTask(e.target.value)} />
+      <button onClick={addTask} plac>Add Task</button>
       <select onChange={(e) => setFilter(e.target.value)}>
         <option value="all">All</option>
         <option value="completed">Completed</option>

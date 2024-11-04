@@ -29,12 +29,12 @@ function Contact() {
                 name="name"
                 value={formData.name}
                 onChange={(handleChange)} 
-                placeholder="Enter your name" />
+                placeholder="Enter your name"  required/>
                 <label>Email</label>
                 <input type="email" 
                 name="email"
                 value={formData.email} onChange={(handleChange)}
-                placeholder="Enter your email" />
+                placeholder="Enter your email" required />
                 <label>Message</label>
                 <textarea name="message" value={formData.message}  onChange={(handleChange)}
                 placeholder="Enter your message" />
